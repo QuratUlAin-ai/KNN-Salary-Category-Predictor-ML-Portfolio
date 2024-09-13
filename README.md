@@ -82,4 +82,4 @@ The ML Portfolio Project Fast API file contains the FastApi application.
 
 The ML Portfolio Project hugging face Create a Gradio application that interacts with the FastAPI endpoint.
 
-Here's is the URL for Hugging face applicationn =
+Here's is the URL for Hugging face application =
