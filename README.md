@@ -75,3 +75,11 @@ Mean Absolute Error (MAE): 55312.7144
 Root Mean Squared Error (RMSE): 76717.5722
 
 ----------------------------------------
+
+The ML Portfolio Project AI/ML Salaries contains the EDA and Ml part of AI,ML salaries data. 
+
+The ML Portfolio Project Fast API file contains the FastApi application.
+
+The ML Portfolio Project hugging face Create a Gradio application that interacts with the FastAPI endpoint.
+
+Here's is the URL for Hugging face applicationn =
