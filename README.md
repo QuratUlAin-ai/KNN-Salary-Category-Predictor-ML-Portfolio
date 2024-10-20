@@ -102,3 +102,7 @@ Best Hyperparameters: {'classifier__metric': 'manhattan', 'classifier__n_neighbo
 The ML Portfolio Project AI/ML Salaries contains the EDA and Ml part of AI,ML salaries data. 
 
 Here's is the URL for Hugging face application = https://quratulain-ai11-knn-salary-category-predictor.hf.space
+
+![Screenshot Description](KNN-Salary-Category-Predictor-ML-Portfolio/screenshot(24).png)
+
+
