@@ -1,5 +1,8 @@
 # KNN Salary Category Predictor
 
+
+![Screenshot)](Screenshot.png)
+
 The salaries are from ai-jobs. Ai-jobs collects salary information anonymously from professionals all over the world in the AI/ML and Big Data space and makes it publicly available for anyone to use, share and play around with. The data is being updated regularly with new data coming in, usually on a weekly basis.
 The primary goal is to have data that can provide better guidance in regards to what's being paid globally. So newbies, experienced pros, hiring managers, recruiters and also startup founders or people wanting to make a career switch can make better informed decisions.
 
@@ -102,6 +105,4 @@ Best Hyperparameters: {'classifier__metric': 'manhattan', 'classifier__n_neighbo
 The ML Portfolio Project AI/ML Salaries contains the EDA and Ml part of AI,ML salaries data. 
 
 Here's is the URL for Hugging face application = https://quratulain-ai11-knn-salary-category-predictor.hf.space
-
-![Screenshot)](Screenshot.png)
 
