@@ -1,4 +1,4 @@
-# ML-Portfolio-Random-Forest-Regressor-Salaries-Predictor
+# KNN Salary Category Predictor
 
 The salaries are from ai-jobs. Ai-jobs collects salary information anonymously from professionals all over the world in the AI/ML and Big Data space and makes it publicly available for anyone to use, share and play around with. The data is being updated regularly with new data coming in, usually on a weekly basis.
 The primary goal is to have data that can provide better guidance in regards to what's being paid globally. So newbies, experienced pros, hiring managers, recruiters and also startup founders or people wanting to make a career switch can make better informed decisions.
@@ -55,32 +55,23 @@ M: 50 to 250 employees (medium)
 
 L: more than 250 employees (large)
 
-I applied the Random forest regressor and linear regression but the best accuracy is achieved through random forest regressor.
+I applied the KNN Classification model:
 
-Model: Random Forest Regressor
+KNN Classification Results after Hyperparameter Tuning:
+              precision    recall  f1-score   support
 
-R2 Score: 0.9671
+         Low       0.80      0.93      0.86      1502
+  Medium-Low       0.59      0.36      0.45       122
+        High       0.52      0.32      0.40       512
 
-Mean Absolute Error (MAE): 1190.1960
+    accuracy                           0.75      2136
+   macro avg       0.64      0.54      0.57      2136
+weighted avg       0.72      0.75      0.73      2136
 
-Root Mean Squared Error (RMSE): 14070.1127
-
-----------------------------------------
-Model: Linear Regression
-
-R2 Score: 0.0222
-
-Mean Absolute Error (MAE): 55312.7144
-
-Root Mean Squared Error (RMSE): 76717.5722
-
+KNN Classification Accuracy: 0.7519
+Best Hyperparameters: {'classifier__metric': 'manhattan', 'classifier__n_neighbors': 11, 'classifier__weights': 'distance'}
 ----------------------------------------
 
 The ML Portfolio Project AI/ML Salaries contains the EDA and Ml part of AI,ML salaries data. 
 
-The ML Portfolio Project Fast API file contains the FastApi application.
-
-The ML Portfolio Project hugging face Create a Gradio application that interacts with the FastAPI endpoint.
-
-Here's is the URL for Hugging face application = QuratUlAin-ai11/random-forest-regression-on-salaries-Predictor
-
+Here's is the URL for Hugging face application = https://quratulain-ai11-knn-salary-category-predictor.hf.space
