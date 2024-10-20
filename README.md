@@ -103,5 +103,5 @@ The ML Portfolio Project AI/ML Salaries contains the EDA and Ml part of AI,ML sa
 
 Here's is the URL for Hugging face application = https://quratulain-ai11-knn-salary-category-predictor.hf.space
 
-![Screenshot (24)](Screenshot (24).png)
+![Screenshot)](Screenshot.png)
 
